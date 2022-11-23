@@ -4,9 +4,12 @@
 }
 
 .container ul li {
-font-family: copperplate;
-font-size: larger;
-color: rgba(255, 255, 255, 0.971);
+  font-family: copperplate;
+  font-size: larger;
+  color: rgba(255, 255, 255, 0.971);
+}
+.navbar{
+  color: aquamarine;
 }
 
 li {
@@ -17,9 +20,9 @@ li {
 .links {
     left: 50px;
     padding: 10px;
+    color: aquamarine;
 }
 
 a:link {
     text-decoration: none;
   }
-

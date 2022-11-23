@@ -12,6 +12,7 @@ import Navbar from './components/navbar/navbar';
 import Project from './components/project';
 import CV from './components/cv';
 import Footer from './components/Footer/footer';
+import AboutMe from './components/aboutMe/aboutMe';
 
 
 
@@ -31,6 +32,7 @@ return(
    <Navbar />
     <Routes>
       <Route path='/' element={<App />}></Route>
+      <Route path='AboutMe' element={<AboutMe />} />
       <Route path='cv' element={<CV />} />
       <Route path='project' element={<Project />} />
     </Routes>
