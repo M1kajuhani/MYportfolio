@@ -18,11 +18,16 @@ import Footer from './components/Footer/footer';
 
 
 const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
+  document.getElementById('root') as HTMLElement  
 );
-root.render(
+
+const Index : React.FC = () => {
+
+  const isProduction = window.location.href.includes('m1kajuhani.github.io');
+
+return(
   <React.StrictMode>
-  <BrowserRouter>
+  <BrowserRouter basename={isProduction ? 'myportfolio' : ''}>
    <Navbar />
     <Routes>
       <Route path='/' element={<App />}></Route>
@@ -33,8 +38,7 @@ root.render(
   </BrowserRouter>
 </React.StrictMode>
 );
+}
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+root.render(<Index />);
 reportWebVitals();
