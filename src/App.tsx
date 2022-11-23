@@ -1,14 +1,13 @@
-import React from 'react';
-import MyFirstComponent from './components/myFirstComponent';
-import SomeExampleComponent from './components/example/someExampleComponent';
-import ClickCount from './components/clickCount';
+import React from 'react'
+import AboutMe from './components/aboutMe/aboutMe';
+
+
 
 const App: React.FC = () => {
   return (
-    <div>
-       <SomeExampleComponent />
-       < ClickCount />
-    </div>
+    <>
+      <AboutMe />
+    </>      
   )
 }
 

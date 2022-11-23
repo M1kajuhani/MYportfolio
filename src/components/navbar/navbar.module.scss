@@ -1,0 +1,25 @@
+.container {
+  position: relative;
+  margin-left: 65%;
+}
+
+.container ul li {
+font-family: copperplate;
+font-size: larger;
+color: rgba(255, 255, 255, 0.971);
+}
+
+li {
+    display: inline;
+    padding: 10px;
+}
+
+.links {
+    left: 50px;
+    padding: 10px;
+}
+
+a:link {
+    text-decoration: none;
+  }
+
