@@ -1,5 +1,6 @@
 import React from 'react'
-import {BsLinkedin, BsGithub, BsDiscord} from 'react-icons/bs'
+import {BsLinkedin, BsGithub} from 'react-icons/bs'
+import {GoMail} from 'react-icons/go'
 import styles from './footer.module.scss'
 
 type FooterProps = {
@@ -9,11 +10,11 @@ type FooterProps = {
 const Footer: React.FC<FooterProps> = () => {
   return (
       <div className={styles.footer}>
-      
-         <a href="https://linkedin.com" target="_blank"><BsLinkedin/></a>
-         <a href="https:/github.com" target="_blank"><BsGithub/></a>
-         <a href="https://discord.com" target="_blank"><BsDiscord/></a>
-        
+        <div className={styles.links}>
+         <a href="https://www.linkedin.com/in/mika-juhani-a3b481252/" target="_blank" rel="opener"><BsLinkedin/></a>     
+         <a href="mailto:mikajuhani13@gmail.com" target="_blank"rel="opener"><GoMail/></a>
+         <a href="https:/github.com/m1kajuhani" target="_blank" rel="opener"><BsGithub/></a>
+        </div>
       </div>
   )
 }

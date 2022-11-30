@@ -1,12 +1,17 @@
-.container {
-    background-color: aqua;
-    
-}
 .footer {
-color: rgb(135, 3, 192);
+background: linear-gradient(#000, #150235);
 position: fixed;
 left: 0;
 bottom: 0;
 width: 100%;
-text-align: center;
+text-align: center; 
+}
+
+.footer .links {
+    margin: 0px;
+    padding: 15px; 
+}
+.footer .links a {
+    padding: 7px;
+    color:rgb(111, 13, 223);
 }

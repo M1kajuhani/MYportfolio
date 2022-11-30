@@ -9,14 +9,10 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './index.module.scss';
 import Navbar from './components/navbar/navbar';
-import Project from './components/project';
 import CV from './components/cv';
 import Footer from './components/Footer/footer';
 import AboutMe from './components/aboutMe/aboutMe';
-
-
-
-
+import Projects from './components/projects';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement  
@@ -32,9 +28,9 @@ return(
    <Navbar />
     <Routes>
       <Route path='/' element={<App />}></Route>
-      <Route path='AboutMe' element={<AboutMe />} />
+      <Route path='Home' element={<AboutMe />} />
       <Route path='cv' element={<CV />} />
-      <Route path='project' element={<Project />} />
+      <Route path='projects' element={<Projects />} />
     </Routes>
     <Footer />
   </BrowserRouter>
