@@ -5,7 +5,7 @@ import styles from './navbar.module.scss'
 type NavbarProps = {
 
 }
-const NavbarProps: React.FC<NavbarProps> = () => {
+const Navbar: React.FC<NavbarProps> = () => {
   return (
     <div className={styles.container}>
       <div className={styles.navbar}>
@@ -19,4 +19,4 @@ const NavbarProps: React.FC<NavbarProps> = () => {
   )
 }
 
-export default NavbarProps
+export default Navbar
