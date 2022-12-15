@@ -1,5 +1,7 @@
 import React from 'react'
 import styles from './cv.module.scss'
+import {BsTelephone} from 'react-icons/bs'
+import {CiLocationOn} from 'react-icons/ci'
 
 type CVProps = {
 
@@ -8,36 +10,42 @@ type CVProps = {
 const CV: React.FC<CVProps> = () => {
   return (
     <div className={styles.container}>
-      <h1>CV</h1>
       <div className={styles.info}>
       
-Nimi: Mika Juhani Kuusela< br/>
-Syntymääika: 13.03.1989< br/>
-Kotiosoite: Kalevankatu 36 A, 00180 Helsinki< br/>
-Mob: 044 976 1136 
-<h2>KOULUTUS:</h2>
+<h1>Mika Juhani Kuusela</h1>< br/>
+Date of birth: 13.03.1989< br/>
+<CiLocationOn/> Kalevankatu 36 A, 00180 Helsinki< br/>
+<BsTelephone/> 044 976 1136 
+<h2>Education</h2>
+Vantaan ammattiopisto Varia 2021- continue< br/>
+St.Petersburg State Institute of Psychology and Social Work 2012-2016< br/>
+St.Petersburg State University of Telecommunications 2006-2008< br/>
+School №204 Pietarissa 1996-2006< br/>
 
-Pietarin instituutti psykologia ja sosiaaliala 2012-2016< br/>
-Pietarin Valtion televiestintä yliopisto 2006-2008< br/>
-Peruskoulu Pietarissa 1996-2006< br/>
-
-<h2>MUUT KURSSIT:</h2>
+<h2>Additional courses:</h2>
 Axxell kielikurssi 1/2020 - 5/2020< br/>
 Eira Aikuislukio 8/2018 - 13/12/2018< br/>
 
-<h2>KIELITATIO:</h2>
-Venäjä äidinkieli< br/>
-Englanti Intermediate< br/>
-Suomi B 1.1< br/>
+<h2>Languages:</h2>
+Russian Native< br/>
+English Intermediate< br/>
+Finnish B2 < br/>
 
-<h2>TYÖHAKEMUS JA VAHVUUDET:</h2>
-Posti OY 1/2019-5/2019 Espoo< br/>
-BN1 e-commerce 2012-2017 Pietari< br/>
-Quadro Electric Ltd 9/2012-2013 Pietari< br/>
+<h2>Working Experience:</h2>
+Posti OY 1/2019-5/2019 Espoo, Finland< br/>
+Rostelecom 9/2017-2018 Saint-Petersburg, Russia< br/>
+BN1 e-commerce 1/2013-2017 Saint-Petersburg, Russia< br/>
+Quadro Electric Ltd 9/2011-2013 Saint-Petersburg, Russia< br/>
 
-<h2>VAHVUUDET:</h2>
-sosiaalisuus / vastuu / tietokoneet ja niiden käyttö (HTML CSS, 3dsmax)< br/>
-Ajokortti :  B  FIN 
+<h2>Skills:</h2>
+* HTML5
+* CSS
+* Python 
+* C# + Unity
+| Frameworks:
+* React
+* Typescript
+* NodeJs< br/>
 </div>
     </div>
   )

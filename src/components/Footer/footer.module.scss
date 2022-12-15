@@ -1,5 +1,4 @@
-.footer {
-background: linear-gradient(#000, #150235);
+.container {
 position: fixed;
 left: 0;
 bottom: 0;
@@ -7,11 +6,8 @@ width: 100%;
 text-align: center; 
 }
 
-.footer .links {
-    margin: 0px;
-    padding: 15px; 
-}
-.footer .links a {
-    padding: 7px;
-    color:rgb(111, 13, 223);
+.links {
+    border: 5px;
+    margin: 10px;
+    padding: 1px; 
 }

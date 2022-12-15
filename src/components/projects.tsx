@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { IRepo } from './types/gitHubData';
+import {BsGithub} from 'react-icons/bs'
 import styles from './projects.module.scss'
 
 
@@ -24,8 +25,8 @@ const Projects: React.FC<ProjectsProps> = () => {
           githubData && githubData.map(x => (
             <div key={x.id} className={styles.box}>
               <h4 className={styles.title}>{x.name}</h4>
-              <p className={styles.text}>{x.description}</p>
-              <a href={x.html_url} target="_blanc" rel='noreferrer'><h4 className={styles.a}><span>Look it in GitHub</span></h4></a>
+              <h5 className={styles.text}>{x.description}</h5>
+              <a href={x.html_url} target="_blanc" rel='noreferrer'><h4 className={styles.projectLinks}><span>Go to GitHub</span></h4><BsGithub/></a>
             </div>
           ))
         }

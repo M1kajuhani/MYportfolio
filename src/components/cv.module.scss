@@ -1,18 +1,23 @@
 .container {
-    color:rgb(111, 13, 223);;
-    margin-top: 7%;
+    width: auto;
+    height: 750px;
+    margin-top: 1%;
     padding: auto;
     display: flex;
     justify-content: center;
-    h1 {
-        font-size: 100px;
+    .info {
+        margin: auto;
+        color: #ffffff;
+        font-family: monospace;
+        font-size: 13px;
     }
-}
-.info {
-    margin-left: 150px;
-    color: #ffffff;
-    font-family: monospace;
-    h2 {
-        color: rgb(111, 13, 223);
+
+}    
+h1{
+        color:#66fcf1;
+        font-size:25px;
     }
-}
+h2 {
+        color:#66FCF1;
+    }
+

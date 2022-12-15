@@ -1,32 +1,102 @@
 .container {
-    font-family: 'Inconsolata', monospace;
-    width: 100%;
-    height: 700px;
-    background: #030303;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(#000, #150235);
-   
+  font-family: 'Inconsolata', monospace;
+  width: auto;
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  } 
   
-    h1 {
-      color: rgb(111, 13, 223);
-      font-size: 3rem;
-      background: linear-gradient(to left, rgb(111, 13, 223), rgb(238, 251, 252)); 
-      background-clip: text;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent; 
-      // transition: 5s; /* Время эффекта */
-      // transform: scale(2); /* Увеличиваем масштаб */
+  
+.hello{
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.hello span{
+  font-family: 'Inconsolata', monospace;
+  font-size: 3.5rem;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  transition: all 1s;
+  animation: animate 2s infinite;
+  
+}
+
+.hello span:nth-child(1)
+{
+  animation-delay: .1s;
+}
+
+.hello span:nth-child(2)
+{
+  animation-delay: .2s;
+}
+
+.hello span:nth-child(3)
+{
+  animation-delay: .3s;
+}
+
+.hello span:nth-child(4)
+{
+  animation-delay: .4s;
+}
+
+.hello span:nth-child(5)
+{
+  animation-delay: .5s;
+}
+
+.hello span:nth-child(6)
+{
+  animation-delay: .6s;
+}
+
+.hello span:nth-child(7)
+{
+  animation-delay: .7s;
+}
+.hello span:nth-child(8)
+{
+  animation-delay: .8s;
+}
+.hello span:nth-child(9)
+{
+  animation-delay: .9s;
+}
+.hello span:nth-child(10)
+{
+  animation-delay: .10s;
+}
+// .hello span:nth-child(11)
+// {
+//   animation-delay: .11s;
+// }
+// .hello span:nth-child(12)
+// {
+//   animation-delay: .12s;
+// }
+// .loader span:nth-child(13)
+// {
+//   animation-delay: .13s;
+// }
+
+@keyframes animate{
+  0%{
+      color: #66FCF1;
+      transform: translateY(0);
+      margin: 0;
+  }
+      10%{
+      color: rgb(0, 234, 255);
+      }
     }
-    h2 {
-    font-size: 3rem;
-    background: linear-gradient(to right, rgb(11, 200, 214), rgb(238, 251, 252)); 
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-   }
     p {
       font-weight: 500;
       font-size: 5px;
@@ -48,5 +118,4 @@
       50% {width: 0;}
       100% {width: 50;}
     }
-}
 

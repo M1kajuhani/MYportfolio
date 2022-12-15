@@ -1,10 +1,12 @@
 .container {
-  margin-left: 75%;
-  position: sticky;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
-
-.container ul li a {
-  color: rgb(111, 13, 223);
+.navbar {
+  flex-direction: row;
+  justify-content: space-between;
   font-family: copperplate;
   font-size: larger;
   margin: 0 0.5rem;
@@ -12,9 +14,25 @@
   font-weight: lighter; 
   padding: 0.5rem 0.5rem;
 }
-.links li {
-  display: inline;  
+.navbarLinks {
+  margin-left: 20px;
+  display: inline-block;
+  list-style: none;
 }
-li a:hover {
-  background-color: #111;
+
+a:link {
+  color:#66FCF1;
+  text-decoration: none;
+}
+
+a:visited{
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active{
+  text-decoration: none;
 }
