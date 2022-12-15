@@ -21,7 +21,7 @@ const AboutMe: React.FC<AboutMeProps> = () => {
             <span>L</span>
             <span>D</span></h1>          
         </div>
-    <p>I'm Mika WebDev based in Finland</p>
+    <p>I'm Mika Developer based in Finland</p>
 
     </div>
   )

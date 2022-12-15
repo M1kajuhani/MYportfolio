@@ -14,8 +14,8 @@ const CV: React.FC<CVProps> = () => {
       
 <h1>Mika Juhani Kuusela</h1>< br/>
 Date of birth: 13.03.1989< br/>
-<CiLocationOn/> Kalevankatu 36 A, 00180 Helsinki< br/>
-<BsTelephone/> 044 976 1136 
+<CiLocationOn/> Helsinki< br/>
+<BsTelephone/> 000 000 0000 
 <h2>Education</h2>
 Vantaan ammattiopisto Varia 2021- continue< br/>
 St.Petersburg State Institute of Psychology and Social Work 2012-2016< br/>
