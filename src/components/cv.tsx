@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from './cv.module.scss'
-import {BsTelephone} from 'react-icons/bs'
 import {CiLocationOn} from 'react-icons/ci'
 
 type CVProps = {
@@ -13,9 +12,7 @@ const CV: React.FC<CVProps> = () => {
       <div className={styles.info}>
       
 <h1>Mika Juhani Kuusela</h1>< br/>
-Date of birth: 13.03.1989< br/>
 <CiLocationOn/> Helsinki< br/>
-<BsTelephone/> 000 000 0000 
 <h2>Education</h2>
 Vantaan ammattiopisto Varia 2021- continue< br/>
 St.Petersburg State Institute of Psychology and Social Work 2012-2016< br/>
