@@ -14,7 +14,7 @@ const CV: React.FC<CVProps> = () => {
 <h1>Mika Juhani Kuusela</h1>< br/>
 <CiLocationOn/> Helsinki< br/>
 <h2>Education</h2>
-Vantaan ammattiopisto Varia 2021- continue< br/>
+Vantaan ammattiopisto Varia 08/2021- 1/2024< br/>
 St.Petersburg State Institute of Psychology and Social Work 2012-2016< br/>
 St.Petersburg State University of Telecommunications 2006-2008< br/>
 School №204 Pietarissa 1996-2006< br/>
@@ -30,9 +30,8 @@ Finnish B2 < br/>
 
 <h2>Working Experience:</h2>
 Posti OY 1/2019-5/2019 Espoo, Finland< br/>
-Rostelecom 9/2017-2018 Saint-Petersburg, Russia< br/>
-BN1 e-commerce 1/2013-2017 Saint-Petersburg, Russia< br/>
-Quadro Electric Ltd 9/2011-2013 Saint-Petersburg, Russia< br/>
+BN1 shop OY e-commerce 10/2014-2020 Helsinki, Finland< br/>
+Quadro Electric Ltd 9/2011-2012 Saint-Petersburg, Russia< br/>
 
 <h2>Skills:</h2>
 * HTML5
